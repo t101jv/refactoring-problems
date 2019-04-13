@@ -9,7 +9,7 @@ public class StuffPrinter {
 
     public void printStuff() {
         System.out.print(foo + bar);
-        System.out.print(1 + 2);
+        System.out.print(one + two);
     }
 
 }
