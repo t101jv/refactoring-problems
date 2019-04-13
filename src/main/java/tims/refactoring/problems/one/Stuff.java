@@ -25,7 +25,7 @@ public class Stuff {
     public static void main(String[] args) {
         Stuff stuff = new Stuff("foo", "bar", 1, 2);
         System.out.println(stuff.getStringStuff());
-        System.out.println(stuff.getNumberStuff());
+        System.out.println(stuff.getStringStuff());
 
     }
 

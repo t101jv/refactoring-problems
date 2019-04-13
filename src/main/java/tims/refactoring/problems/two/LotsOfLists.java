@@ -6,6 +6,16 @@ import java.util.List;
 
 public class LotsOfLists {
 
+    public class Person {
+        private String name;
+        private Integer age;
+
+        @Override
+        public String toString() {
+            return name + " is " + age + " years old.";
+        }
+    }
+
     public static void print(List<String> names, List<Integer> ages) {
         for (int i = 0; i < names.size(); i++) {
             System.out.println(names.get(i) + " is " + ages.get(i) + " years old.");
